@@ -8,6 +8,9 @@ import { Routes, Route } from 'react-router-dom';
 import Footer from './Components/Footer/Footer'
 import GamePage from './Pages/GamePage/GamePage'
 // import PageUp from './Components/PageUp/PageUp';
+import ScrollButton from './Components/ScrollButton/ScrollButton';
+import StaredNote from './Pages/StaredNote/StaredNote';
+import NoteEditor from './Pages/NoteEditor/NoteEditor';
 
 
 function App() {
@@ -41,11 +44,14 @@ function App() {
         />
 
          <ControlPanel/>
+         <ScrollButton/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/Save" element={<StaredNote />} />
+          <Route path="/Note" element={<NoteEditor />} />
           <Route path="/GamePage" element={<GamePage />} />
         </Routes> 
-    {/* <PageUp/> */}
+
     <Footer/>
     </div>
   );

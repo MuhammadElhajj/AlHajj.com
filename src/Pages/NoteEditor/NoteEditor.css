@@ -1,0 +1,88 @@
+/* App.css */
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  .todo-list, .starred-todos {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  form {
+    display: flex
+    ;
+        gap: 10px;
+        margin: 10px auto;
+        width: 90%;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo {
+    display: flex
+    ;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin: 10px auto;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        width: 90%;
+    
+  }
+  
+  .todo.starred {
+    background-color: #fff3cd;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    padding: 4px 8px;
+  }
+  
+  .actions button.starred {
+    background-color: #ffd700;
+    color: #333;
+  }
