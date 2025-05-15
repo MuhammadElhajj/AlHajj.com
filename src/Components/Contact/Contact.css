@@ -56,7 +56,7 @@ border-bottom: 1px solid var(--primary-color);
 outline: none;
 padding: 5px 0px;
 background-color: transparent;
-color: #fff;
+color: var(--text-color);
 }
 
 .Contact__Form__INformation__Input input:focus::placeholder  , .Contact__Textarea:focus::placeholder{
@@ -71,7 +71,7 @@ border: 0;
 border-bottom: 1px solid var(--primary-color);
 outline: none;
 background-color: transparent;
-color: #fff;
+color: var(--text-color);
 
 }
 
@@ -81,7 +81,7 @@ color: #fff;
 }
 .Contact__Textarea:focus ,
 .Contact__Form__INformation__Input input:focus {
-    color: var(--white-color);
+    color:  var(--text-color);
 }
 .Contact__Submit__Button {
 
@@ -92,7 +92,7 @@ color: #fff;
     padding: 15px 0;
     font-size: 20px;
     display: flex;
-    color: var(--backgrond-color);
+    color: var(--text-color);
     align-items: center;justify-content: center;
     background-color: var(--primary-color);
    

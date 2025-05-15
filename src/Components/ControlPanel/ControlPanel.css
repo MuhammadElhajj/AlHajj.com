@@ -45,9 +45,10 @@
 
         background-color: var(--container-color);
         padding: 7px 10px;
-        outline: 1px solid var(--primary-color);
+        /* outline: 1px solid var(--primary-color); */
         border-radius: 0;
-
+border: 0px;
+border-top:1px solid var(--primary-color); ;
         width: 100%;
     }
  
