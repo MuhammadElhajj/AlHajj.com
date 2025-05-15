@@ -1,38 +1,145 @@
+/* Theme variables */
+:root {
+    --primary-color : #12f7d6 ;
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --container-color : #edeef0;
+    --transition: all 0.3s ease;
+    --secondary-color : #98faec;
+    --Activebg-color : #000000;
+    --Activetx-color : #ffffff;
+  }
+  
+  .dark-mode {
+    --primary-color : #12f7d6 ;
+    --bg-color: #292f36;
+    --text-color: #ffffff;
+    --container-color : #1a1e23;
+    --Activebg-color : #ffffff;
+    --Activetx-color : #000000;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    scroll-behavior: smooth;
+    
+}
+
+  /* Base styles */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: var(--transition);
+  }
+  
+  /* Toggle button styles */
+  .theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 4px;
+    transition: var(--transition);
+    margin-left: 25px;
+    color: var(--text-color);
+  }
+  
+  .theme-toggle:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  
+  .theme-toggle svg {
+    width: 24px;
+    height: 24px;
+  }
+
 .App {
-  text-align: center;
+    position: relative;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+.icon__part {
+    display: flex;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+   
+
+/* !......................................! */
+
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+  
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+   
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+
+   
+  
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+ 
+  
+  
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    
+   
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+  
+    
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    
+    
+}
+
+
+
+/* !................ */
+
+
+@media screen and (min-width : 0px) and (max-width : 989px) {
+   
+   
+}
+
+
+@media screen and (min-width : 0) and (max-width : 768px) {
+
+  
+   
+  
+}
+
+@media screen and (min-width : 0) and (max-width :639px) {
+ 
+  
+  
 }
