@@ -27,10 +27,10 @@ href : "/LuComputer"
 icon : <BiEdit/> ,
 href : "/BiEdit"
 },
-{
-icon : <BiEnvelope/> ,
-href : "/BiEnvelope"
-},
+// {
+// icon : <BiEnvelope/> ,
+// href : "/BiEnvelope"
+// },
 {
 icon : <BiGame/> ,
 href : "/GamePage"
