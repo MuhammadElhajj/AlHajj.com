@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AlHajj.com/static/css/main.3c76b129.css",
+    "main.css": "/AlHajj.com/static/css/main.145f51dc.css",
     "main.js": "/AlHajj.com/static/js/main.53ae9e3c.js",
     "static/media/Muhammad.jpg": "/AlHajj.com/static/media/Muhammad.3d152661b62f503ee931.jpg",
     "static/media/Elhajj.pdf": "/AlHajj.com/static/media/Elhajj.45416879bde5bf7a5baf.pdf",
     "static/media/AboutPicture.jpg": "/AlHajj.com/static/media/AboutPicture.6011a8ecde51d8d1fa9b.jpg",
     "index.html": "/AlHajj.com/index.html",
-    "main.3c76b129.css.map": "/AlHajj.com/static/css/main.3c76b129.css.map",
+    "main.145f51dc.css.map": "/AlHajj.com/static/css/main.145f51dc.css.map",
     "main.53ae9e3c.js.map": "/AlHajj.com/static/js/main.53ae9e3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c76b129.css",
+    "static/css/main.145f51dc.css",
     "static/js/main.53ae9e3c.js"
   ]
 }
