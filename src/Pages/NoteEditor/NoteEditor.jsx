@@ -52,7 +52,7 @@ function NoteEditor() {
 
   return (
     <div className="note-editor">
-      <h1>My Notes</h1>
+      <h1 className ="Note__h1">My Notes</h1>
       <form onSubmit={addTodo} className="note-form">
         <input
           type="text"
@@ -61,10 +61,11 @@ function NoteEditor() {
           placeholder="Add new note..."
           aria-label="Add new note"
           maxLength={200}
+          className='input__Note'
         />
         <button 
           type="submit" 
-          className="add-button"
+          className="note-add-button"
           disabled={!input.trim()}
         >
           Add Note

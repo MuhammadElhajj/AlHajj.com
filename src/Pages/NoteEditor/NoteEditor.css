@@ -23,27 +23,27 @@
   }
   
   .todo-list, .starred-todos {
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 8px;
+  
+    padding: 20px 10%;
+   
   }
   
-  form {
+  /* form {
     display: flex
     ;
         gap: 10px;
         margin: 10px auto;
         width: 90%;
-  }
+  } */
   
-  input {
+  /* input {
     flex: 1;
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
-  }
+  } */
   
-  button {
+  /* button {
     padding: 8px 16px;
     background-color: #007bff;
     color: white;
@@ -54,7 +54,7 @@
   
   button:hover {
     background-color: #0056b3;
-  }
+  } */
   
   .todo {
     display: flex
@@ -65,12 +65,12 @@
         margin: 10px auto;
         border: 1px solid #eee;
         border-radius: 4px;
-        width: 90%;
+        width: 100%;
     
   }
   
   .todo.starred {
-    background-color: #fff3cd;
+    background-color: #977e00;
   }
   
   .actions {
@@ -86,3 +86,81 @@
     background-color: #ffd700;
     color: #333;
   }
+
+  .Note__h1 {
+   
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+
+  .note-form {
+    display: flex
+    ;
+        
+        
+        width: 100%;
+        padding: 10px 10%;
+  }
+
+  .input__Note {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid var(--primary-color);
+    outline: 0;
+
+  }
+
+  .note-add-button {
+    width: 10%;
+    border-radius: 0 10px 10px 0;
+
+    background: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+
+  }
+
+  .note-add-button:hover {
+    background-color: transparent;
+  }
+
+  .notes-container {
+    width: 100%;
+    padding: 10px 10%;
+  }
+
+  @media screen and (min-width : 0) and (max-width : 700px) {
+    .Note__h1 {
+      margin-left: 3%;
+    }
+    .note-form {
+      
+      padding: 10px 3%;
+    }  
+    .notes-container {
+     
+      padding: 10px 3%}
+      .note-form {
+   
+        flex-direction: column;}
+        .note-add-button {
+          width: 100%;
+          border-radius: 10px;
+          padding: 10px;}
+          .input__Note {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+          }       
+          .todo-list, .starred-todos {
+  
+            padding: 20px 3%;
+           
+          }
+           
+      }
