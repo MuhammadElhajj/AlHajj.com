@@ -6,6 +6,8 @@ import { BiEdit } from "react-icons/bi";
 import { BiGame } from "react-icons/bi";
 import { BiSave } from "react-icons/bi";
 import { BiNote } from "react-icons/bi";
+import { SiDatev } from "react-icons/si";
+import { CgCalculator } from "react-icons/cg";
 
 const ControlPanelInfo = [
 {
@@ -17,8 +19,8 @@ icon : <BiUser/> ,
 href : "/BiUser"
 },
 {
-icon : <BiCode/> ,
-href : "/BiCode"
+icon : <CgCalculator/> ,
+href : "/AgeCalculator"
 },
 {
 icon : <BiEdit/> ,

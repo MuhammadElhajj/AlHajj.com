@@ -70,7 +70,7 @@
   }
   
   .todo.starred {
-    background-color: #977e00;
+    background: var(--container-color);
   }
   
   .actions {
@@ -83,7 +83,7 @@
   }
   
   .actions button.starred {
-    background-color: #ffd700;
+    background-color: #fee975;
     color: #333;
   }
 

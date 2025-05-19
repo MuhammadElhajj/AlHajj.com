@@ -11,6 +11,7 @@ import GamePage from './Pages/GamePage/GamePage'
 import ScrollButton from './Components/ScrollButton/ScrollButton';
 import StaredNote from './Pages/StaredNote/StaredNote';
 import NoteEditor from './Pages/NoteEditor/NoteEditor';
+import AgeCalculator from './Components/AgeCalculator/AgeCalculator';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           <Route path="/Save" element={<StaredNote />} />
           <Route path="/Note" element={<NoteEditor />} />
           <Route path="/GamePage" element={<GamePage />} />
+          <Route path="/AgeCalculator" element={<AgeCalculator />} />
         </Routes> 
 
     <Footer/>

@@ -7,6 +7,7 @@ function ControlPanel() {
 
   return (
     <div className='ControlPanel'>
+
       {ControlPanelInfo.map((item, index) => (
         <NavLink
           key={index}

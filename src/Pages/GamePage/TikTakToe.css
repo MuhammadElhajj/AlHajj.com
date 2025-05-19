@@ -10,7 +10,7 @@
     text-align: center;
     margin-top: 35px;
     margin-bottom: 35px;
-    background: #000;
+    background: var(--container-color);
     /* min-height: 100vh; */
     width: 600px;
     color: white;
@@ -74,7 +74,7 @@
 }
 
 .Tik__Tak__Toe__Status {
-  color: #fff;
+  color: var(--text-color);
   font-weight: normal;
   font-size: 18px;
   margin-top: 10px;
@@ -150,7 +150,7 @@
 
 .game-setup {
   
-  background: #000;
+  background: var(--container-color);
     /* min-height: 100vh; */
     width: 100%;
     color: white;
@@ -174,7 +174,7 @@
   border-radius: 5px;
   font-weight: 600;
   transition: color 0.3s;
-  color: #fff;
+  color: var(--text-color);
   background: transparent;
 }
 .Symbol__button:hover, .difficulty__button:hover {
